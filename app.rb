@@ -1,8 +1,7 @@
 require 'pry'
 class Application < Sinatra::Base
-
+binding.pry
   get '/' do
-    binding.pry
     erb :index
   end
 
